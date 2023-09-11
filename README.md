@@ -10,3 +10,17 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 Crea un container nel DOM , aggiungendo (attraverso la funzione `append()`) un elemento html con il numero o la stringa corretta da mostrare.
 Applica stili differenti agli elementi aggiunti al DOM, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+### Ragionamento Logico:
+
+- stampo i numeri da 1 a 100
+
+- se il numero è multiplo di 3 e 5 - stampo "FizzBuzz" e aggiungo la classe del bg
+
+- se il numero è multiplo di 3 - stampo "Fizz" e aggiungo la classe del bg
+
+- se il numero è multiplo di 5 - stampo "Buzz" e aggiungo la classe del bg
+
+- se il numero non soddisfa le condizioni precedenti stampo il numero
+
+

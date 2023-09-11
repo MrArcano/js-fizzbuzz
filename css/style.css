@@ -5,6 +5,20 @@
   --bg-fizzbuzz: #f0466f;
 }
 
+/* UTILITY */
+
+.box.bg-fizz{
+  background-color: var(--bg-fizz);
+}
+
+.box.bg-buzz{
+  background-color: var(--bg-buzz);
+}
+
+.box.bg-fizzbuzz{
+  background-color: var(--bg-fizzbuzz);
+}
+
 body{
   background-color: #083b4c;
 }
@@ -29,16 +43,3 @@ body{
   font-weight: bold;
 }
 
-/* UTILITY */
-
-.bg-fizz{
-  background-color: var(--bg-fizz);
-}
-
-.bg-buzz{
-  background-color: var(--bg-buzz);
-}
-
-.bg-fizzbuzz{
-  background-color: var(--bg-fizzbuzz);
-}
