@@ -5,18 +5,22 @@
 - se il numero è multiplo di 5 - stampo "Buzz"
 - se il numero è multiplo di 3 e 5 - stampo "FizzBuzz"
 */
-
+let text = "";
 
 for(let i=1; i<=100; i++){
-  console.log(i);
+  
+  text = i;
+
   if (!(i%3)){
-    console.log("Fizz")
+    text = "Fizz";
   }
   if (!(i%5)){
-    console.log("Buzz")
+    text = "Buzz";
   }
   if ((!(i%3)) && (!(i%5))){
-    console.log("FizzBuzz")
+    text = "FizzBuzz";
   }
   
+  console.log(text);
+
 }
